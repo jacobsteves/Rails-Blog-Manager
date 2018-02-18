@@ -1,24 +1,44 @@
-# README
+# Rails Blog Manager
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple blog manager. Useful for beginners learning about the 7 restful actions of rails, routes, and how controllers interact with models and views.
 
-Things you may want to cover:
+| Main                        | Post                        |
+| --------------------------- | --------------------------- |
+|![Main](vendor/Demo/main.png)|![Main](vendor/Demo/post.png)|
 
-* Ruby version
+| Edit                        | New                        |
+| --------------------------- | --------------------------- |
+|![Main](vendor/Demo/edit.png)|![Main](vendor/Demo/new.png)|
 
-* System dependencies
+## Getting Started
 
-* Configuration
+### Prerequisites
 
-* Database creation
+* A Ruby Version Manager
+* A package manager, like [bundler](http://bundler.io/)
 
-* Database initialization
+### Installing
 
-* How to run the test suite
+* Clone this repo.
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+git clone https://github.com/jacobsteves/Rails-Blog-Manager.git
+```
 
-* Deployment instructions
+* Initialize our local repo: 
+```
+bundle install && rake db:migrate
+```
 
-* ...
+* Start the rails server: 
+```
+rails s
+```
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/jacobsteves/BananaMan/tags).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
