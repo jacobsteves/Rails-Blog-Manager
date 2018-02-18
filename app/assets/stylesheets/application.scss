@@ -17,3 +17,14 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.header {
+  background-color: #2a2a2a;
+  padding: 1em;
+
+  a {
+    color: #F2F2F2;
+  }
+  a:hover {
+    color: #FFFFFF;
+  }
+}
